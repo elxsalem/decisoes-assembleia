@@ -1,3 +1,3 @@
 # decisoes-assembleia
 
-Criação do projetoc
+Criação do projeto
