@@ -6,10 +6,9 @@ import com.decisoesassembleias.service.SessaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Controller
 public class SessoesController {
@@ -19,9 +18,15 @@ public class SessoesController {
 
     @ResponseBody
     @GetMapping("/sessoes")
-    public String listaSessoes() {
-        return "Funcionando perfeitamente";
+    public ResponseEntity<List<SessaoDto>> listarSessoes() {
+        return ResponseEntity.ok(sessaoService.listarSessoes());
     }
+
+//    @ResponseBody
+//    @GetMapping("/sessoes/abertas")
+//    public ResponseEntity<List<SessaoDto>> listarSessoesAberta() {
+//        return ResponseEntity.ok(sessaoService.listarSessoesAberta());
+//    }
 
     @ResponseBody
     @PostMapping("/sessoes")

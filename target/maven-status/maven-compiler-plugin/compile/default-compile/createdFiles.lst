@@ -1,2 +1,6 @@
-com\decisoesassembleias\controllers\DecisoesAssembleiasSessoesController.class
+com\decisoesassembleias\dto\SessaoDto.class
+com\decisoesassembleias\entities\Sessao.class
+com\decisoesassembleias\service\SessaoService.class
+com\decisoesassembleias\dto\NovaSessao.class
 com\decisoesassembleias\DecisoesAssembleiasApplication.class
+com\decisoesassembleias\controllers\SessoesController.class

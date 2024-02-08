@@ -1,3 +1,8 @@
-C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\controllers\DecisoesAssembleiasSessoesController.java
 C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\DecisoesAssembleiasApplication.java
+C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\service\SessaoService.java
+C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\dto\NovaSessao.java
+C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\controllers\SessoesController.java
 C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\entities\Sessao.java
+C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\service\Impl\SessaoServiceImpl.java
+C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\dto\SessaoDto.java
+C:\Users\JAYNE\Desktop\avaliacao-java\decisoes-assembleia\src\main\java\com\decisoesassembleias\repository\SessaoRepository.java
